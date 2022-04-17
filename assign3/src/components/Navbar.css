@@ -1,0 +1,140 @@
+.sigh {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.mydivouter div:hover {
+    background-color: rgb(247, 245, 245);
+}
+
+.navbar-nav .nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-link a:hover {
+    color: blue;
+}
+
+.my-btn:hover {
+    background-color: #FF69B4;
+}
+
+.my-btn {
+    background: #F20091;
+    border: 0px;
+    border-radius: 0%;
+    color: #F7F7F7;
+    text-shadow: 0 -1px transparent;
+    margin-top: 30%, 0%;
+}
+
+.btn-plain-alt:hover {
+    background-color: #7377b3;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.justify-center {
+    align-items: center;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.color-black {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-info {
+    background: #007fed;
+    border: 1px solid #007fed;
+    color: #F7F7F7;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 18px 26px;
+    border-radius: 0;
+    height: 90%;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-color-hover a:hover {
+    color: #139ff0;
+}
+
+.mydivouter {
+    position: relative;
+}
+
+.mydivoverlap {
+    position: relative;
+    z-index: 1;
+}
+
+.mybuttonoverlap {
+    display: none;
+}
+
+.mydivouter:hover .mybuttonoverlap {
+    display: block;
+}
+
+.my {
+    background: #4fb55d;
+    border: 1px solid #4fb55d;
+    color: #F7F7F7;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+}
+
+.sidebar_heading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 106px;
+}
+
+.sidebar {
+    top: 0px;
+    height: 100%;
+    box-shadow: 2px;
+    overflow-y: hidden;
+    margin-bottom: 0px;
+    border: 2px solid;
+    padding: 2px;
+    position: sticky;
+}
+
+.budget {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.check1 {
+    margin-top: -70px;
+}
+
+.Checkbox-input {
+    border-bottom-left-radius: blue;
+}
+
+#search-submit:hover {
+    color: rgb(240, 255, 252);
+}

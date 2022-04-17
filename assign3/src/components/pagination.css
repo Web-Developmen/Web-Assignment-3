@@ -1,0 +1,36 @@
+.pagination [class*="flicon-pagination"] {
+    width: 12px;
+    height: 12px;
+    margin-right: 0;
+    padding: 0;
+    fill: #0e1724;
+    pointer-events: none;
+    stroke: none;
+}
+
+[class*="flicon-"] {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    fill: transparent;
+    stroke: #4d525b;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.2px;
+}
+
+.post {
+    cursor: pointer;
+}
+
+.enterBidButton {
+    display: none;
+}
+
+.post:hover .enterBidButton {
+    display: block;
+}
+
+.tag:hover {
+    text-decoration: underline !important;
+}
